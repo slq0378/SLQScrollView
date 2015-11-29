@@ -4,7 +4,7 @@
 //
 //  Created by songlq on 15/10/27.
 //  Copyright (c) 2015年 songlq. All rights reserved.
-//
+//  通过两个定时器来实现滚动，并监听点击
 
 #import <UIKit/UIKit.h>
 #define LABELTAG 200
@@ -15,6 +15,7 @@
 @protocol SLQScrollViewDelegate <NSObject>
 
 @optional
+/// 点击
 - (void)scrollView:(SLQScrollView *)scrollView didClickItemWithIndex:(NSInteger )index;
 @end
 
