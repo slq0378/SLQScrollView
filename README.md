@@ -1,7 +1,7 @@
 # SLQScrollView
 滚动条，可点击
 
-
+![](scrollView.gif)
 
 - 使用方法
 - 1、包含头文件 
