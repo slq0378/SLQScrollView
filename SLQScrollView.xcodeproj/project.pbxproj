@@ -10,11 +10,11 @@
 		74D6B3441BDF1D9300C15C63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D6B3431BDF1D9300C15C63 /* main.m */; };
 		74D6B3471BDF1D9300C15C63 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D6B3461BDF1D9300C15C63 /* AppDelegate.m */; };
 		74D6B34A1BDF1D9300C15C63 /* SLQScrollView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 74D6B3481BDF1D9300C15C63 /* SLQScrollView.xcdatamodeld */; };
-		74D6B34D1BDF1D9300C15C63 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D6B34C1BDF1D9300C15C63 /* ViewController.m */; };
-		74D6B3501BDF1D9300C15C63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74D6B34E1BDF1D9300C15C63 /* Main.storyboard */; };
+		74D6B34D1BDF1D9300C15C63 /* SLQViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D6B34C1BDF1D9300C15C63 /* SLQViewController.m */; };
 		74D6B3521BDF1D9300C15C63 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74D6B3511BDF1D9300C15C63 /* Images.xcassets */; };
 		74D6B3551BDF1D9300C15C63 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74D6B3531BDF1D9300C15C63 /* LaunchScreen.xib */; };
 		74D6B3611BDF1D9300C15C63 /* SLQScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D6B3601BDF1D9300C15C63 /* SLQScrollViewTests.m */; };
+		E4996AE91C0B2D2E00E87A43 /* SLQScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = E4996AE81C0B2D2E00E87A43 /* SLQScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +34,15 @@
 		74D6B3451BDF1D9300C15C63 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		74D6B3461BDF1D9300C15C63 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		74D6B3491BDF1D9300C15C63 /* SLQScrollView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SLQScrollView.xcdatamodel; sourceTree = "<group>"; };
-		74D6B34B1BDF1D9300C15C63 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		74D6B34C1BDF1D9300C15C63 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		74D6B34F1BDF1D9300C15C63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74D6B34B1BDF1D9300C15C63 /* SLQViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLQViewController.h; sourceTree = "<group>"; };
+		74D6B34C1BDF1D9300C15C63 /* SLQViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLQViewController.m; sourceTree = "<group>"; };
 		74D6B3511BDF1D9300C15C63 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		74D6B3541BDF1D9300C15C63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		74D6B35A1BDF1D9300C15C63 /* SLQScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SLQScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74D6B35F1BDF1D9300C15C63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74D6B3601BDF1D9300C15C63 /* SLQScrollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLQScrollViewTests.m; sourceTree = "<group>"; };
+		E4996AE71C0B2D2E00E87A43 /* SLQScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLQScrollView.h; sourceTree = "<group>"; };
+		E4996AE81C0B2D2E00E87A43 /* SLQScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLQScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +84,11 @@
 		74D6B3401BDF1D9300C15C63 /* SLQScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				E4996AE61C0B2D2E00E87A43 /* SLQScrollView */,
 				74D6B3451BDF1D9300C15C63 /* AppDelegate.h */,
 				74D6B3461BDF1D9300C15C63 /* AppDelegate.m */,
-				74D6B34B1BDF1D9300C15C63 /* ViewController.h */,
-				74D6B34C1BDF1D9300C15C63 /* ViewController.m */,
-				74D6B34E1BDF1D9300C15C63 /* Main.storyboard */,
+				74D6B34B1BDF1D9300C15C63 /* SLQViewController.h */,
+				74D6B34C1BDF1D9300C15C63 /* SLQViewController.m */,
 				74D6B3511BDF1D9300C15C63 /* Images.xcassets */,
 				74D6B3531BDF1D9300C15C63 /* LaunchScreen.xib */,
 				74D6B3481BDF1D9300C15C63 /* SLQScrollView.xcdatamodeld */,
@@ -120,6 +121,15 @@
 				74D6B35F1BDF1D9300C15C63 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E4996AE61C0B2D2E00E87A43 /* SLQScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				E4996AE71C0B2D2E00E87A43 /* SLQScrollView.h */,
+				E4996AE81C0B2D2E00E87A43 /* SLQScrollView.m */,
+			);
+			path = SLQScrollView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,6 +181,7 @@
 				TargetAttributes = {
 					74D6B33D1BDF1D9300C15C63 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 598H4YNG3K;
 					};
 					74D6B3591BDF1D9300C15C63 = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -202,7 +213,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74D6B3501BDF1D9300C15C63 /* Main.storyboard in Resources */,
 				74D6B3551BDF1D9300C15C63 /* LaunchScreen.xib in Resources */,
 				74D6B3521BDF1D9300C15C63 /* Images.xcassets in Resources */,
 			);
@@ -224,7 +234,8 @@
 			files = (
 				74D6B3471BDF1D9300C15C63 /* AppDelegate.m in Sources */,
 				74D6B34A1BDF1D9300C15C63 /* SLQScrollView.xcdatamodeld in Sources */,
-				74D6B34D1BDF1D9300C15C63 /* ViewController.m in Sources */,
+				74D6B34D1BDF1D9300C15C63 /* SLQViewController.m in Sources */,
+				E4996AE91C0B2D2E00E87A43 /* SLQScrollView.m in Sources */,
 				74D6B3441BDF1D9300C15C63 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,14 +259,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		74D6B34E1BDF1D9300C15C63 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				74D6B34F1BDF1D9300C15C63 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		74D6B3531BDF1D9300C15C63 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -351,9 +354,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SLQScrollView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -361,9 +367,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SLQScrollView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -420,6 +429,7 @@
 				74D6B3661BDF1D9300C15C63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		74D6B3671BDF1D9300C15C63 /* Build configuration list for PBXNativeTarget "SLQScrollViewTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +438,7 @@
 				74D6B3691BDF1D9300C15C63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

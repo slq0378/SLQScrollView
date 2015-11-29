@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "SLQViewController.H"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +17,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    UIWindow *window1 = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    window1.rootViewController = [[SLQViewController alloc] init];
+    [window1 makeKeyAndVisible];
+    self.window = window1;
     return YES;
 }
 

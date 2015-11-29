@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SLQViewController.h
 //  SLQScrollView
 //
 //  Created by songlq on 15/10/27.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface SLQViewController : UIViewController
 
 
 @end
