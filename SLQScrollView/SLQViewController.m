@@ -40,8 +40,8 @@
     scrollView.delegate = self;
     scrollView.margin = 10;
     scrollView.titleArray = @[@"哈哈哈哈哈哈哈啊哈哈",
-                              @"laladhfakjdhfn啊到时罚款交话费的凯撒减肥哈达可使肌肤哈萨克",
-                              @"hahhahakdhfkdajfhadskjfhasuhraeiowhroiwehroijewoi"];
+                              @"laladhfakjdhfn啊到时罚款交",
+                              @"hahhahakdhfkhroijewoi"];
     [self.view addSubview:scrollView];
     self.scrollView = scrollView;
 }
